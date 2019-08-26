@@ -1,0 +1,241 @@
+@charset "UTF-8";
+
+#bodyWrap{}
+
+/*header*/
+#header{
+	height: 100%;
+    position: relative;
+}
+#header h1{
+    display: inline-block;
+	margin: 0 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    vertical-align: middle;
+	background: url(../images/main_logo.png) no-repeat center center;
+	width: 170px;
+	height: 76px;
+	text-indent: -9999px;
+}
+#header h1 a{
+	display: block;
+	height: 100%;
+}
+
+.menu{
+    display: inline-block;
+    vertical-align: bottom;
+    height: 100%;
+}
+.menu li{
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    position: relative;
+    margin: 0 30px;
+}
+.menu li a{
+    font-size: 20px;
+    line-height: 100px;
+}
+/*lnb*/
+.lnb{
+	position: absolute;
+	z-index: 1;
+	background: #fff;
+	overflow: hidden;
+	max-height: 0;
+    transition: max-height 0.5s;
+	top: 95px;
+	border-top: 5px solid #fff;
+}
+.lnb li{
+    display: block;
+	line-height: 20px;
+	width: 120px;
+	text-align: left;
+	padding: 0 15px;
+	box-sizing: border-box;
+    margin: 0;
+}
+.lnb li a{
+    text-align: left;
+    font-size: 15px;
+    padding: 0;
+    line-height: 20px;
+}
+.lnb li:hover a{
+	color: #e63c2e;
+}
+.lnb li:after{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 1px;
+	background: #ccc;
+	margin: 8px 0;
+}
+.lnb li:last-child{
+	margin-bottom: 8px;
+}
+.lnb li:first-child{
+	padding-top: 8px;
+}
+.lnb li:last-child:after{
+	display: none;
+}
+.menu li:hover .lnb{
+	max-height: 500px;
+	border-top: 5px solid #e63c2e;
+}
+
+.utill{
+	position: absolute;
+	right: 20px;
+	top: 10px;
+    font-size: 15px;
+    font-weight: 300;
+}
+.utill li{
+	display: inline-block;
+	margin: 0 8px;
+}
+
+.utill .search{
+    vertical-align: middle;
+}
+.search input{
+	background: url(../images/ico_search.png) no-repeat left center;
+	width: 160px;
+	height: 25px;
+    box-sizing: border-box;
+    padding-left: 30px;
+    border: 0;
+    border-bottom: 1px solid #000;
+}
+
+.utill .mypage{
+	margin-right: 0;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+
+/*footer*/
+#footer{
+	background: #F3F3F3;
+}
+
+.footerWrap{
+	font-size: 13px;
+	padding: 50px 0;
+}
+.footerWrap h1{
+	background: url(../images/main_logo.png) no-repeat;
+	width: 170px;
+	height: 76px;
+	text-indent: -9999px;
+	float: left;
+}
+.footerWrap h1 a{
+    height: 100%;
+}
+.footerWrap p{}
+
+.fmenuWrap{
+	float: left;
+	margin-left: 50px;
+	font-weight: 300;
+}
+
+.fmenu2 li,.fmenu3 li{
+	float: left;
+	
+}
+.fmenu1{
+	font-size: 0;
+	margin-bottom: 15px;
+}
+.fmenu2{}
+.fmenu3{}
+
+.fmenu1 li{
+	display: inline-block;
+}
+.fmenu1 li:hover{
+	font-weight: 500;
+}
+.fmenu1 li a span{
+	font-size: 15px;
+	line-height: 15px;
+	vertical-align: middle;
+}
+
+.fmenu1 li a:after{
+	content: "";
+	display: inline-block;
+	background: #7e7e7e;
+	width: 1px;
+	height: 10px;
+	margin: 0 10px;
+	vertical-align: middle;
+}
+.fmenu1 li:last-child a:after{
+	display: none;
+}
+.fmenu2 li{}
+.fmenu3 li{}
+
+.futill{
+	float: right;
+}
+.futill select{
+	-webkit-appearance: none;
+	border: 1px solid #A1A1A1;
+	width: 160px;
+	height: 30px;
+	padding: 0 15px;
+	background: url(../images/icon_select.png) no-repeat 135px center;
+}
+select::-ms-expand {display:none}
+/*익스플로러에서 셀렉트박스 화살표 없애기*/
+
+.sns{
+    cursor: pointer;
+}
+.sns li{
+	float: left;
+	width: 30px;
+	height: 30px;
+	text-indent: -9999px;
+	margin:15px 5px;
+	transition: background-image 0.5s;
+}
+.sns li a{
+	height: 100%;
+}
+.sns .snsF:hover{
+	background-image: url(../images/sns_facebook_on.png);
+}
+.sns .snsF{
+	background: url(../images/sns_facebook.png) no-repeat center center;
+}
+.sns .snsT:hover{
+	background-image: url(../images/sns_twiter_on.png);
+}
+.sns .snsT{
+	background: url(../images/sns_twiter.png) no-repeat center center;
+}
+.sns .snsI:hover{
+	background-image: url(../images/sns_inster_on.png);
+}
+.sns .snsI{
+	background: url(../images/sns_inster.png) no-repeat center center;
+}
+.sns .snsB:hover{
+	background-image: url(../images/sns_blog_on.png);
+}
+.sns .snsB{
+	background: url(../images/sns_blog.png) no-repeat center center;
+}

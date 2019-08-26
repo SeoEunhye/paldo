@@ -1,0 +1,368 @@
+@charset "UTF-8";
+
+/*mainSlider*/
+.mainSlider{
+	position: relative;
+    height: 1000px;
+}
+.mainSlider img{
+	width: 100%;
+}
+
+/*slick*/
+.mainSlider .slick-dots{
+	width: 100px;
+	position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+.mainSlider .slick-dots li{
+	float: left;
+	margin-right: 10px;
+}
+.mainSlider .slick-dots li:last-child{
+	margin-right: 0;
+}
+.mainSlider .slick-dots li button{
+	border: 0;
+	width: 40px;
+	height: 5px;
+	background: rgba(204, 204, 204, 0.5);
+	text-indent: -9999px;
+}
+.mainSlider .slick-dots .slick-active button{
+	background: #fff;
+}
+
+/*container*/
+#container{
+	text-align: center;
+}
+
+.mainCon1{
+    margin-top: 250px;
+    margin-bottom: 330px;
+}
+.mainCon1 h1{
+	margin-top: 100px;
+}
+.mainCon1 p{
+	margin-top: 20px;
+	font-weight: 300;
+}
+
+.mainCon1Box{
+	margin:80px 0;
+	margin-bottom: 30px;
+	position: relative;
+}
+.mainCon1Box li{
+	width: 350px;
+	height: 350px;
+	line-height: 350px;
+	float: left;
+	margin-right: 75px;
+	margin-bottom: 75px;
+	text-align: center;
+	background: url(../images/main_prodeuct1.png) no-repeat center center;
+	background-size: cover;
+}
+.mainCon1Box li a{
+	color: #fff;
+	font-size: 25px;
+	font-weight: 500;
+	height: 100%;
+	background-color: rgba(0,0,0,0.0);
+	transition: all 0.8s;
+}
+.mainCon1Box li a span{
+	display: none;
+}
+.mainCon1Box li a img{
+	width: 100%;
+}
+
+.mainCon1Box .mainCon1Box1{}
+.mainCon1Box .mainCon1Box2{
+	background-image: url(../images/main_prodeuct2.png);
+}
+.mainCon1Box .mainCon1Box3{
+	background-image: url(../images/main_prodeuct3.png);
+	line-height: normal;
+	margin-right: 0;
+	position: relative;
+}
+.mainCon1Box .mainCon1Box3 span{
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	margin-top: -33px;
+}
+.mainCon1Box .mainCon1Box4{
+	background-image: url(../images/main_prodeuct4.png);
+	margin-bottom: 0;
+}
+.mainCon1Box .mainCon1Box5{
+	background-image: url(../images/main_prodeuct5.png);
+	line-height: normal;
+	position: relative;
+	margin-bottom: 0;
+}
+.mainCon1Box .mainCon1Box5 span{
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	margin-top: -33px;
+}
+.mainCon1Box .mainCon1Box6{
+	background-image: url(../images/main_prodeuct6.png);
+	margin-right: 0;
+	margin-bottom: 0;
+}
+
+.mainCon1Box a:hover{
+	background-color: rgba(0,0,0,0.5);
+}
+.mainCon1Box a:hover span{
+	display:block;
+}
+.mainCon1 .moreBtn{
+	font-size: 15px;
+	width: 100px;
+    text-align: right;
+	margin-left: 1100px;
+    position: relative;
+}
+.mainCon1 .moreBtn:before{
+    content: "";
+    display: block;
+	width: 0;
+	height: 4px;
+	background: #000;
+    position: absolute;
+    top: 11px;
+    left: 0px;
+    transition: width 1.5s;
+}
+.mainCon1 .moreBtn:hover:before{
+    width: 60px;
+}
+
+/*mainCon2*/
+.mainCon2{
+	margin-bottom: 500px;
+	margin-top: 80px;
+}
+.mainCon2 .inner{
+	position: relative;
+}
+.newPdt{}
+.newPdt a{}
+.newPdt .newPdtImg{
+    width: 100%;
+}
+
+/*slick*/
+.newPdt .slick-dots{
+	width: 100px;
+	position: absolute;
+    top: 40px;
+    right: 300px;
+}
+.newPdt .slick-dots li{
+	float: left;
+	margin-right: 10px;
+}
+.newPdt .slick-dots li:last-child{
+	margin-right: 0;
+}
+.newPdt .slick-dots li button{
+	border: 0;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: rgba(204, 204, 204, 0.5);
+	text-indent: -9999px;
+}
+.newPdt .slick-dots .slick-active button{
+	background: #ff8e8e;
+}
+
+.paldoMall{
+	width: 500px;
+	height: 500px;
+	background-color: #EDF8FE;
+	border-radius: 50%;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+	position: absolute;
+	right: 100px;
+	bottom: -150px;
+}
+.paldoMall img{
+	position: absolute;
+	top: 50%;
+	margin-top: -140px;
+	left: 50%;
+	margin-left: -130px;
+}
+
+/*mainCon3*/
+.mainCon3{}
+.mainCon3 div{
+	text-align: left;
+}
+.mainCon3 h1{
+	margin-top: 100px;
+}
+.mainCon3 p{
+	margin-top: 20px;
+}
+
+.mainCon3Wrap{
+	margin: 80px auto;
+	margin-bottom: 150px;
+}
+.con3Box1,.con3Box3,.con3Box2{
+	float: left;
+	margin-right: 20px;
+}
+
+.con3Box1 div,.con3Box3 div{
+	width: 312px;
+	height: 193px;
+	margin-bottom: 20px;
+}
+.con3Box2 div{
+	width: 535px;
+	height: 388px;
+	margin-bottom: 20px;
+}
+.con3Box1{
+	position: relative;
+}
+.con3Box1 .notice{
+	background: #ffc446;
+	box-sizing: border-box;
+}
+.notice a{
+	color: #fff;
+}
+.notice h3{
+	margin-bottom: 30px;
+}
+.notice p{
+	margin-top: 15px;
+	line-height: 30px;
+    cursor: pointer;
+}
+.notice p:hover{
+	text-decoration: underline;
+}
+.notice,.story,.recipe,.snsNotice{
+	padding: 30px;
+	box-sizing: border-box;
+	height: 100%;
+	color: #fff;
+}
+.mainCon3Wrap h3{
+	font-weight: 500;
+}
+.mainCon3Wrap p{
+	font-size: 13px;
+	font-weight: 200;
+}
+.mainCon3Wrap .moreBtn3{
+	width: 95px;
+	height: 26px;
+    line-height: 26px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 200;
+    text-align: center;
+	border: 1px solid rgba(255,255,255,0.5);
+	border-radius: 12px;
+	transition: background 0.8s;
+    cursor: pointer;
+}
+.mainCon3Wrap .moreBtn3:hover{
+	background: #5DA91B;
+	border: 1px solid #5DA91B;
+}
+.moreBtn3 a{
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	line-height: 26px;
+	font-weight: 100;
+}
+.con3Box1 .event{
+	height: 388px;
+}
+.con3Box1 .plusBtn{
+	width: 20px;
+	height: 19px;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
+.con3Box1 .plusBtn:hover{
+	
+}
+.con3Box2{
+	position: relative;
+}
+.con3Box2 .cf{}
+.cf video{
+	background: #000;
+}
+.con3Box2 .story{
+	height: 193px;
+	background: #a6ce71 url(../images/icon_idea.png) no-repeat 375px center;
+}
+.con3Box2 .moreBtn3{
+	position: absolute;
+	bottom: 30px;
+	left: 30px;
+}
+.con3Box3{
+	position: relative;
+	margin-right: 0;
+}
+.con3Box3 .snsNotice{
+	height: 388px;
+	background: #F3F3F3;
+	padding-top: 65px;
+    color: #222;
+    cursor: pointer;
+}
+.con3Box3 .snsNotice:hover{
+	text-decoration: underline;
+}
+.snsNotice p{
+	font-size: 12px;
+	font-weight: 300;
+	letter-spacing: -1px;
+}
+.snsNotice p span{
+	margin-top: 20px;
+}
+.con3Box3 .recipe{
+	text-align: right;
+	background: rgb(255, 142, 142) url(../images/icon_food.png) no-repeat 20px 97px;
+}
+.con3Box3 .facebookBtn{
+	width: 26px;
+	height: 25px;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
+.con3Box3 .moreBtn3{
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+}
+.con3Box3 .moreBtn3:hover{
+	background: #f44a4a;
+	border: 1px solid #f44a4a;
+}

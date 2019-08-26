@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/*반응형 웹*/
+.panel{display: none;}
+.menu{display: inline-block;}
+.utill{display: block;}
+.mainSlider .slider{display: block;}
+.mainSlider .mobileSlider{display: none;}
+/*반응형 모바일*/
+@media screen and (max-width:768px){
+	html, body {
+		max-width: 100%;
+		overflow-x: hidden;
+	}
+	body {
+		overflow: hidden;
+		width: 100%;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	/*inner값 초기화*/
+	.inner{width: 100%;}
+	
+	/*header*/
+	#header{}
+	#header h1{
+		background-size: 90px 40px;
+		width: 90px;
+		height: 40px;
+		margin: 10px 20px;
+		padding: 0;
+	}
+	.menu{display: none;}
+	.utill{display: none;}
+	
+	/*container*/
+	#container{width: 100%;}
+	.mainSlider{height: auto; background-size: cover;}
+	.mainSlider .slider{display: none;}
+	.mainSlider .mobileSlider{display: block;}
+	
+	.mainCon1{width: 100%; margin: 0 20px;}
+	.mainCon1Box{margin-top: 50px;}
+	.mainCon1 h1{font-size: 25px;}
+	.mainCon1 p{margin-top: 10px;}
+	.mainCon1 a{display: none;}
+	.mainCon1Box li{margin: 0;}
